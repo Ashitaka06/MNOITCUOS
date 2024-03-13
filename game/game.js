@@ -17,7 +17,7 @@ const cleanedArray = wordsArray.map(word => word.replace(/['\r]/g, ''));
 // Fonction pour obtenir un indice aléatoire chaque jour
 const getRandomIndex = () => {
   const currentDate = new Date().toISOString().split('T')[0]; // Obtenir la date actuelle au format AAAA-MM-JJ
-  const seed = currentDate; // Utiliser la date comme graine
+  const seed = currentDate + "42"; // Ajouter "42" à la date pour utiliser comme graine
   const rng = seedrandom(seed);
   return Math.floor(rng() * wordsArray.length);
 };
