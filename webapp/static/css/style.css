@@ -127,7 +127,7 @@ table {
   color: #ffffff;
 }
 
-th, td {
+th, td, thead {
   padding: 12px 15px;
   text-align: center; /* Centrer le contenu */
 }
