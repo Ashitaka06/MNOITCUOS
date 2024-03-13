@@ -80,7 +80,7 @@ Ce projet illustre l'utilisation de plusieurs concepts clés en architecture log
 
 <p align="center">Classement
 
-![Capture d'écran du classement](https://github.com/Ashitaka06/MNOITCUOS/assets/100866077/d03b0103-6fe0-4c53-a074-7e305ad46f60)
+![Capture d'écran du classement](https://github.com/Ashitaka06/MNOITCUOS/assets/100866077/6eeff344-bd8c-40b1-8088-8fd99d3cf2ff)
 
 ## Contribution
 
