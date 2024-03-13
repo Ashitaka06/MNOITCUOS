@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNOITCUOS - Inscription</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Connexion</a>
+    <a href="register.html">Inscription</a>
+  </nav>
+  <h1>Créer un nouveau compte</h1>
+  <div id="mess"></div>
+  <form onsubmit="return validateForm()" action="/create" method="get">
+    <label for="user">Identifiant</label>
+    <input type="text" id="user" name="user">
+    <br/>
+    <label for="pass">Mot de passe</label>
+    <input type="password" id="pass" name="pass">
+    <br/>
+    <label for="pass2">Confirmez votre mot de passe</label>
+    <input type="password" id="pass2" name="pass2">
+    <br/>
+    <br/>
+    <button type="submit" id="creation">Créer le compte</button>
+  </form>
+  <div id="noAcc">Vous avez déjà un compte ? <a href="index.html">Connectez-vous ici</a></div>
+  <div id="reponse"></div>
+  <footer>
+    <p>&copy; 2024 Nicolas Lamarque, ING3 IA Groupe 1 - Créateur de (MOTUS + NICO) MNOITCUOS</p>
+  </footer>
+
+  <script src="js/register.js"></script>
+</body>
+</html>

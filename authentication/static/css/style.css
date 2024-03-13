@@ -1,0 +1,93 @@
+/* Base */
+body {
+  background-color: #1e1e2d; /* Couleur de fond sombre */
+  color: #ffffff; /* Couleur de texte claire */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Centre le contenu */
+}
+
+a {
+  color: #4a90e2; /* Bleu pour les liens */
+  text-decoration: none; /* Supprime le soulignement */
+}
+
+a:hover {
+  color: #007bff; /* Bleu un peu plus clair au survol */
+}
+
+/* Navigation */
+nav {
+  background-color: #26263c; /* Bleu très sombre pour le fond de la nav */
+  overflow: hidden;
+  padding: 14px 16px; /* Espacement */
+}
+
+nav a {
+  float: left;
+  color: #ffffff; /* Texte blanc */
+  text-align: center;
+  padding: 14px 16px; /* Espacement */
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #37415d; /* Bleu sombre au survol */
+  color: #ffffff; /* Texte reste blanc */
+}
+
+/* Formulaires */
+form {
+  background-color: #2e2e4a; /* Fond légèrement bleuté */
+  padding: 20px; /* Espacement à l'intérieur */
+  margin-top: 20px; /* Espacement au-dessus */
+  display: inline-block; /* Permet au formulaire de ne pas prendre toute la largeur */
+  border-radius: 8px; /* Bordures arrondies */
+}
+
+label {
+  margin-right: 10px; /* Espacement entre label et input */
+  color: #b8b8d1; /* Couleur des labels */
+}
+
+input[type="text"], input[type="password"] {
+  padding: 10px;
+  margin: 8px 0; /* Espacement vertical */
+  border: none;
+  border-radius: 5px; /* Bordures arrondies */
+}
+
+button {
+  background-color: #4a90e2; /* Bleu */
+  color: #ffffff; /* Texte blanc */
+  border: none;
+  padding: 10px 20px; /* Espacement */
+  cursor: pointer;
+  border-radius: 5px; /* Bordures arrondies */
+}
+
+button:hover {
+  background-color: #007bff; /* Bleu plus clair */
+}
+
+/* Styles pour le footer */
+footer {
+  background-color: #1e1e2d;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav a, form {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "API pour gérer la logique du jeu",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Lamarque",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "seedrandom": "^3.0.5"
+  }
+}

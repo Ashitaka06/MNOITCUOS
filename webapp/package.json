@@ -1,0 +1,18 @@
+{
+  "name": "webapp",
+  "version": "1.0.2",
+  "description": "Web-App pour le MNOITCUOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node webapp.js"
+  },
+  "author": "Nicolas Lamarque",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "9.0.2"
+  },
+  "keywords": []
+}

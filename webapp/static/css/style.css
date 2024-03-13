@@ -1,0 +1,168 @@
+/* Base */
+body {
+  background-color: #1e1e2d; /* Couleur de fond sombre */
+  color: #ffffff; /* Couleur de texte claire */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Centre le contenu */
+}
+
+a {
+  color: #4a90e2; /* Bleu pour les liens */
+  text-decoration: none; /* Supprime le soulignement */
+}
+
+a:hover {
+  color: #007bff; /* Bleu un peu plus clair au survol */
+}
+
+/* Navigation */
+nav {
+  background-color: #26263c; /* Bleu très sombre pour le fond de la nav */
+  overflow: hidden;
+  padding: 14px 16px; /* Espacement */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  float: left;
+  color: #ffffff; /* Texte blanc */
+  text-align: center;
+  padding: 14px 16px; /* Espacement */
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #37415d; /* Bleu sombre au survol */
+  color: #ffffff; /* Texte reste blanc */
+}
+
+/* Formulaires */
+form {
+  background-color: #2e2e4a; /* Fond légèrement bleuté */
+  padding: 20px; /* Espacement à l'intérieur */
+  margin-top: 20px; /* Espacement au-dessus */
+  display: inline-block; /* Permet au formulaire de ne pas prendre toute la largeur */
+  border-radius: 8px; /* Bordures arrondies */
+}
+
+label {
+  margin-right: 10px; /* Espacement entre label et input */
+  color: #b8b8d1; /* Couleur des labels */
+}
+
+input[type="text"], input[type="password"] {
+  padding: 10px;
+  margin: 8px 0; /* Espacement vertical */
+  border: none;
+  border-radius: 5px; /* Bordures arrondies */
+}
+
+button {
+  background-color: #4a90e2; /* Bleu */
+  color: #ffffff; /* Texte blanc */
+  border: none;
+  padding: 10px 20px; /* Espacement */
+  cursor: pointer;
+  border-radius: 5px; /* Bordures arrondies */
+}
+
+button:hover {
+  background-color: #007bff; /* Bleu plus clair */
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.color-0 { background-color: #d9534f; } /* Rouge */
+.color-1 { background-color: #f0ad4e; } /* Orange */
+.color-2 { background-color: #5cb85c; } /* Vert */  
+
+.game-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1e1e2d;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.answer-input, .check-button {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.resultDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.box {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin-right: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Styles pour le tableau */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #26263c;
+  color: #ffffff;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: center; /* Centrer le contenu */
+}
+
+th {
+  background-color: #37415d;
+  font-weight: bold;
+  cursor: pointer; /* Curseur pour indiquer que les colonnes sont triables */
+}
+
+tr:nth-child(even) {
+  background-color: #2e2e4a;
+}
+
+tr:hover {
+  background-color: #37415d;
+}
+
+/* Styles pour le footer */
+footer {
+  background-color: #1e1e2d;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav a, form {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}

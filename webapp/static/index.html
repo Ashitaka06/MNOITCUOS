@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNOITCUOS - Accueil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="mnoitcuos.html">Jouer</a>
+    <a href="leaderboard.html">Classement</a>
+    <div id="user" class="user-info">Nom d'utilisateur</div>
+    <a href="logout">Déconnexion</a>
+  </nav>
+  <div class="content">
+    <h1>Bienvenue sur MNOITCUOS</h1>
+    <p>Le jeu MOTUS vous met au défi de trouver le mot du jour en 5 essais.</br>
+       Chaque tentative vous donne des indices sur les lettres correctes et leurs positions :</p>
+    <ul>
+      <span class="color-2">Vert</span>: Lettre correcte et bien placée.</br>
+      </br>
+      <span class="color-1">Orange</span>: Lettre correcte mais mal placée.</br>
+      </br>
+      <span class="color-0">Rouge</span>: Lettre absente du mot.</br>
+    </ul>
+    <p>Tentez votre chance et que le meilleur gagne !</p>
+    </br>
+    </br>
+    <!-- Bouton pour accéder au jeu -->
+    <button id="startGameButton" onclick="window.location.href='mnoitcuos.html';">J'ai compris !</button>
+  </div>
+  <footer>
+    <p>&copy; 2024 Nicolas Lamarque, ING3 IA Groupe 1 - Créateur de (MOTUS + NICO) MNOITCUOS</p>
+  </footer>
+  <script src="js/index.js"></script>
+</body>
+</html>
