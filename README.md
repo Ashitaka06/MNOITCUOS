@@ -86,4 +86,5 @@ Ce projet illustre l'utilisation de plusieurs concepts clés en architecture log
 
 Toute contribution est la bienvenue. N'hésitez pas à forker le projet, proposer des améliorations ou ouvrir des issues.
 
-&copy; 2024 Nicolas Lamarque & Zine Eddine LAARFI, ING3 IA Groupe 1 - MNOITCUOS
+
+&copy; 2024 Nicolas Lamarque & Zine Eddine LAARFI, ING3 IA Groupe 1 - MNOITCUOS (MOTUS + NICO)
