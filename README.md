@@ -86,6 +86,4 @@ Ce projet illustre l'utilisation de plusieurs concepts clés en architecture log
 
 Toute contribution est la bienvenue. N'hésitez pas à forker le projet, proposer des améliorations ou ouvrir des issues.
 
----
 2024 Nicolas Lamarque, ING3 IA Groupe 1 - Créateur de MNOITCUOS
-```
